@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+  <title>Digital Clock</title>
+  <style>
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family:  'Croissant One', cursive;
+      background: radial-gradient(teal, green, beige)
+    }
+
+    h1,
+    p {
+      text-align: center;
+      font-size: 50px;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1 id="date"></h1>
+    <p id="time"></p>
+  </div>
+
+  <script src="clock.js"></script>
+</body>
+
+</html>
